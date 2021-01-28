@@ -96,6 +96,7 @@ body{
 .item-card{
     height: 260px;
     width: 185px;
+    margin: 10px auto;
 }
 .item-card hr{
     height: 1px;
@@ -124,6 +125,14 @@ body{
     padding: 5px 15px;
 }
 
+.tweet p:nth-of-type(1), .like p:nth-of-type(1){
+    margin-left: 0;
+}
+
+.tweet p:nth-of-type(1){
+    border: 1px solid #8c8a8a;
+    border-radius: 2px;
+}
 
 /*FOOTER*/
 .person{

@@ -1,3 +1,6 @@
+<?php
+    include 'php/db.php'
+?>
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
