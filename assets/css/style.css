@@ -2,6 +2,7 @@
 @import "normalize.css";
 @import "fonts.css";
 @import "variables.css";
+@import "modal.css";
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -12,10 +13,16 @@
 body{
     background: var(--bg);
     font-family: "Century Gothic";
+    background: url("../img/bg.jpg");
+    background-size: cover;
 }
 
 .d-flex{
     display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .justify-content-between{
@@ -37,6 +44,7 @@ body{
 .container:after {
     clear: both;
 }
+/*HEADER*/
 
 .header{
     margin-top: 20px;
@@ -81,8 +89,93 @@ body{
     width: 100%;
 }
 
+.main-content{
+    padding: 15px;
+}
+/*BODY*/
+.item-card{
+    height: 260px;
+    width: 185px;
+}
+.item-card hr{
+    height: 1px;
+    color: #b3b3b3;
+    width: 85%;
+    margin: 10px auto;
+}
+
+.item-card p{
+    font-size: 15px;
+    color: #777575;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.photo{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.photo img{
+    border-radius: 10px;
+}
+
+.social{
+    padding: 5px 15px;
+}
 
 
+/*FOOTER*/
 .person{
     width: 660px;
+    margin: 10px auto;
+}
+
+.info{
+    margin: 5px 15px;
+}
+
+.info h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.info p{
+    font-size: 14px;
+    margin-top:5px;
+}
+.picture{
+    margin-top: 10px;
+}
+
+.social-media{
+    margin-top: 15px;
+}
+
+.social-media h2{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.social-media ul li{
+    margin-bottom: 5px;
+}
+
+.b-shadow{
+    border:none;
+    width: 75%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+}
+
+.copy{
+    font-size: 12px;
+    color: #626262;
+}
+
+.line-rgb p{
+font-size: 12px
 }

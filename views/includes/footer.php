@@ -13,10 +13,19 @@
         <div class="social-media">
             <h2>Acesse Também: </h2>
             <ul>
-                <li>www.fb.com/loremipsum</li>
-                <li>www.twitter.com/loremimpsum</li>
-                <li>www.flickr.com/loremipsum</li>
+                <li><i class="fab fa-facebook-square"></i> www.fb.com/loremipsum</li>
+                <li><i class="fab fa-twitter-square"></i> www.twitter.com/loremimpsum</li>
+                <li><i class="fab fa-flickr"></i> www.flickr.com/loremipsum</li>
             </ul>
+        </div>
+    </div>
+    <hr class="b-shadow">
+    <div class="d-flex justify-content-between">
+        <div class="copy">
+            <p>Todos os direitos reservados - &copy; 2012</p>
+        </div>
+        <div class="line-rgb">
+            <p>Linha Fast | <img src="assets/img/rgb-footer.png" alt=""></p>
         </div>
     </div>
 </footer>

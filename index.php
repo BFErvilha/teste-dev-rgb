@@ -17,11 +17,12 @@
             include 'views/includes/header.php';
         ?>
         <hr class="section-divider"/>
-
-        <?php
+        <section class="container main-content">
+            <?php
             //Main Element
             include 'views/pages/page.php';
-        ?>
+            ?>
+        </section>
 
         <hr class="section-divider"/>
 
@@ -29,5 +30,6 @@
             //Footer Element
             include 'views/includes/footer.php';
         ?>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
