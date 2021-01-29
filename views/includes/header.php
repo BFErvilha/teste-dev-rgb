@@ -1,5 +1,5 @@
 <header class="container header">
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between wrap">
         <div class="logo">
             <img src="assets/img/logo.png" alt="Logo">
         </div>
@@ -8,7 +8,7 @@
                 <p><i class="fas fa-phone"></i> (00) 0000-0000</p>
             </div>
             <div class="menu-list">
-                <ul class="d-flex justify-content-between">
+                <ul class="d-flex justify-content-between wrap">
                     <li>
                         <a href="#"> Página 1</a>
                     </li>

@@ -1,5 +1,5 @@
 <footer class="container">
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between wrap">
         <div class="person d-flex justify-content-between">
             <div class="picture">
                 <img src="assets/img/img21.png" alt="P">
@@ -20,7 +20,7 @@
         </div>
     </div>
     <hr class="b-shadow">
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between wrap">
         <div class="copy">
             <p>Todos os direitos reservados - &copy; 2012</p>
         </div>

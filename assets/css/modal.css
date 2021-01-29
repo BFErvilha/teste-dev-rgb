@@ -102,3 +102,11 @@
 .modal-footer>div>p {
     text-align: left;
 }
+
+@media only screen and (max-width: 767px) {
+
+    .modal-dialog {
+        width: 300px;
+        left: 66%;
+    }
+}
